@@ -16,7 +16,7 @@ repositories {
 }
 
 intellij {
-    version '211.7628.21'
+    version '212.5712.43'
     pluginName 'NameThatColor'
     plugins = ['android']
 }
@@ -26,7 +26,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-    version "1.7.3"
+    version "1.7.5"
     sinceBuild "201.*"
-    untilBuild "213.*"
+    untilBuild "221.*"
 }
